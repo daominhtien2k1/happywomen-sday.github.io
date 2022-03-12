@@ -282,7 +282,7 @@ window.onload = function () {
 
 function reveal() {
   document.querySelector('.merrywrap').style.backgroundColor = 'transparent';
-  document.querySelector('.merrywrap').style.backgroundImage = 'url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png)';
+  document.querySelector('.merrywrap').style.backgroundImage = 'none'
   loop();
 
   var w, h;
